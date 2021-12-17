@@ -1,0 +1,9 @@
+[package]
+edition = "2018"
+name = "lambda-rs"
+version = "0.1.0"
+
+[dependencies]
+lambda = {git = "https://github.com/awslabs/aws-lambda-rust-runtime/", branch = "master"}
+serde_json = "1.0"
+tokio = {version = "0.2", features = ["macros"]}
