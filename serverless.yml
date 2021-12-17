@@ -13,7 +13,7 @@
 service: lambda-rs # NOTE: update this with your service name
 provider:
   name: aws
-  runtime: provided.al2
+  runtime: rust
   memorySize: 128
   # you can overwrite defaults here
   #  stage: dev
