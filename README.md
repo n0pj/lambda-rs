@@ -1,6 +1,6 @@
 # lambda-rs
 
-Lambda で Rust を使用するためのテンプレート。
+Lambda で Rust が使用できるテンプレート。
 
 ## 使い方
 
