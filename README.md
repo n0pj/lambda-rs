@@ -7,7 +7,7 @@ lambda で Rust を使用するためのテンプレート
 ### Setup Template
 
 ```
-serverless install --url git@github.com:n0pj/lambda-rs.git --name lambda-fn && rm -r lambda-fn/.git && cd lambda-fn
+serverless install --url git@github.com:n0pj/lambda-rs.git --name lambda-fn && rm -rf lambda-fn/.git && cd lambda-fn
 ```
 
 ### 確認
