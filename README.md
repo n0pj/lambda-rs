@@ -1,6 +1,6 @@
 # lambda-rs
 
-Lambda で Rust が使用できるテンプレート。
+Lambda で Rust が使用できるテンプレート。AmazonLinux 2 対応。
 
 ## 使い方
 
