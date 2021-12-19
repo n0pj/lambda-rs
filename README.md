@@ -13,7 +13,7 @@ serverless install --url git@github.com:n0pj/lambda-rs.git --name lambda-fn && r
 ### 確認
 
 ```
-serverless invoke -f lambda_rs -d '{json:"test"}'
+serverless invoke -f lambda_rs -d '{"json":"test"}'
 ```
 
 ### デプロイ
