@@ -1,4 +1,4 @@
-# lambda-rs
+# nambda-rs
 
 Lambda で Rust が使用できるテンプレート。Rust 1.57.0, Amazon Linux 2 対応。
 
