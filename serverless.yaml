@@ -10,7 +10,7 @@
 #    docs.serverless.com
 #
 # Happy Coding!
-service: lambda-rs # NOTE: update this with your service name
+service: nambda-rs # NOTE: update this with your service name
 provider:
   name: aws
   runtime: rust
@@ -48,11 +48,11 @@ plugins:
   - nserverless-rust
 
 functions:
-  lambda_rs:
+  nambda-rs:
     # handler value syntax is `{cargo-package-name}.{bin-name}`
     # or `{cargo-package-name}` for short when you are building a
     # default bin for a given package.
-    handler: lambda-rs
+    handler: nambda-rs
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
